@@ -1,6 +1,6 @@
 #the variables for number1 and number2
 number1 = 10
-number2 =5
+number2 = 5
 
 #perform the addition,subtraction and multiplication on these numbers
 sum = number1 + number2
