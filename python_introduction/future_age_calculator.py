@@ -1,4 +1,4 @@
-user_age = int(input("how old are you ")) # get the user age
+user_age = int(input("How old are you? ")) # get the user age
 
 #do the calculations
 future_age = user_age + 27
