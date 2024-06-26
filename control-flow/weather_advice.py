@@ -1,5 +1,5 @@
 # collect the user input and store it in a variable
-weather = input("What's the weather like today ? (sunny/rainy/cold)")
+weather = input("What's the weather like today ? (sunny/rainy/cold):")
 
 # use the input to give the recommendations
 if weather == "sunny":
