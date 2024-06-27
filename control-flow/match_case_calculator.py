@@ -1,6 +1,6 @@
 #prompt the user for an input and store them in a variable
-num1 = float(input("Enter the first number"))
-num2 = float(input("Enter the second number")) 
+num1 = int(input("Enter the first number:"))
+num2 = int(input("Enter the second number:")) 
 
 #ask the operation
 operation = input("Choose the operation (+, -, *, /):.")
