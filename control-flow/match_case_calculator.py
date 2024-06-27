@@ -3,7 +3,7 @@ num1 = int(input("Enter the first number:"))
 num2 = int(input("Enter the second number:")) 
 
 #ask the operation
-operation = input("Choose the operation (+, -, *, /):.")
+operation = input("Choose the operation (+, -, *, /):")
 
 # perform the calculations using the operant
 match operation:
