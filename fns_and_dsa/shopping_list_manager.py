@@ -10,7 +10,7 @@ def display_menu():
     #simple functionalities to the list
 
 def add_to_list(shopping_list):
-    item = input("Add an item to the list")
+    item = input("Enter the item to add:")
     shopping_list.append(item)
     print(f"{item} added to the list")
 
