@@ -10,14 +10,14 @@ def display_menu():
     #simple functionalities to the list
 
 def add_to_list(shopping_list):
-    item = input("Enter the item to add:")
+    item = input("Enter the item to add: ")
     shopping_list.append(item)
     print(f"{item} added to the list")
 
 
 
 def remove_from_list(shopping_list):
-    item = input("Enter item name to remove it from the list")
+    item = input("Enter the item to remove: ")
     if item not in shopping_list:
         print(f"{item} cannot be found in the list please, please check the name and try again.")
     else:
