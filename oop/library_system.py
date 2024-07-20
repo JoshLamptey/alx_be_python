@@ -17,7 +17,7 @@ class EBook(Book):
     def __init__(self, title, author, file_size ):
         super().__init__(title, author)
         self.file_size = file_size
-        print(f'EBook: {title} by {author}, File Size {file_size}KB')
+        print(f'EBook: {title} by {author}, File Size: {file_size}KB')
         pass
 
 class PrintBook(Book):
