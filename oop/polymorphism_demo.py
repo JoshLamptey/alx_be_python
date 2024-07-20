@@ -19,7 +19,10 @@ class Rectangle(Shape):
 class Circle(Shape):
     def __init__(self, radius):
         super().__init__()
+        self.radius = radius
 
         def area(self):
             import math
             return math.pi * self.radius ** 2
+
+            
