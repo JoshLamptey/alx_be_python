@@ -8,7 +8,7 @@ class Book:
         return f"{self.title} by {self.author}"
 
 
-book1 = Book("Book: Pride and Prejudice" , "Jane Austen")
+book1 = Book("Book: Pride and Prejudice", "Jane Austen")
 print(book1)
        #print(f"Book: ",self.title, "by" ,self.author)
        #pass
@@ -31,22 +31,22 @@ class Library():
     def __init__(self):
         self.books = []
 
-        def add_books(self,book):
-            if isinstance(book, Book):
+    def add_book(self,book):
+        if isinstance(book, Book):
                 self.books.append(book)
 
 
-            if isinstance(book, EBook):
-                self.books.append(book)
+        if isinstance(book, EBook):
+            self.books.append(book)
 
-            elif isinstance(book, PrintBook):
-                self.books.append(book)
+        elif isinstance(book, PrintBook):
+            self.books.append(book)
 
-            else:
-                pass
+        else:
+            pass
 
-        def list_books(self):
+
+    def list_books(self):
             for book in self.books:
                 return book
-            
             
